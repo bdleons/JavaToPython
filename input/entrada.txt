@@ -1,0 +1,20 @@
+package miprograma;
+
+import java.util.*;
+
+public class MiPrograma {
+    
+    public static int sum_of_three_digits(int first_digit, int second_digit, int thirddigit){
+        int sopas = first_digit+second_digit+thirddigit;
+        return sopas;
+    }
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a = Integer.parseInt(input.nextLine());
+        int b = Integer.parseInt(input.nextLine());
+        int c = Integer.parseInt(input.nextLine());
+        System.out.println(sum_of_three_digits(a, b, c));
+    }
+    
+}

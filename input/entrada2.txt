@@ -1,0 +1,23 @@
+package listas;
+
+import java.util.Scanner;
+
+public class Listas {
+    public static class Node<T> {
+
+        private T value;
+        private Node next;
+
+    }
+
+    public static class ListaSimpleEncadenada<T> {
+
+        private Node head;
+        private int lenght;
+
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
